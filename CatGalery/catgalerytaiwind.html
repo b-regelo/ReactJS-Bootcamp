@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>Cat Gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+</head>
+<body class="flex justify-center items-center h-screen bg-gray-200">
+    <div class="flex w-11/12 h-[90vh]">
+        <div class="flex-1 overflow-y-scroll p-2 flex flex-col gap-2 scrollbar-hide">
+            <img src="cat1.jpg">
+            <img src="cat2.jpg">
+            <img src="cat3.jpg">
+            <img src="cat4.jpg">
+        </div>
+        <div class="flex-1 overflow-y-scroll p-2 flex flex-col gap-2 scrollbar-hide">
+            <img src="cat5.jpg">
+            <img src="cat6.jpg">
+            <img src="cat2.jpg">
+            <img src="cat1.jpg">
+        </div>
+        <div class="flex-1 overflow-y-scroll p-2 flex flex-col gap-2 scrollbar-hide">
+            <img src="cat4.jpg">
+            <img src="cat6.jpg">
+            <img src="cat2.jpg">
+            <img src="cat3.jpg">
+        </div>
+    </div>
+</body>
+</html>
